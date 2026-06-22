@@ -1,1 +1,122 @@
-<html><head><link rel='stylesheet' href='css/style.css'></head><body><div class="header"><h1>IRISH MOUNTAIN TRAIL RUNNERS</h1><div class="logo"><img src="images/logo.jpg"></div></div><nav><a href="index.html">Home</a><a href="about.html">About</a><a href="events.html">Events</a><a href="gallery.html">Gallery</a><a href="sponsors.html">Sponsors</a><a href="contact.html">Contact</a></nav><div class='container'><h2>Gallery</h2><p>Paste Instagram embed code here.</p></div><footer><p>Irish Mountain Trail Runners</p><p>Email: info@imtr.ie</p></footer></body></html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Gallery</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="header-left">
+
+            <h1>
+                IRISH MOUNTAIN
+                TRAIL RUNNERS
+            </h1>
+
+            <div class="tagline">
+                The most fun you can have in the mountains...
+                with your clothes on.
+            </div>
+
+        </div>
+
+        <div class="logo">
+
+            <img
+                src="images/logo.jpg"
+                alt="IMTR Logo"
+            >
+
+        </div>
+
+    </header>
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="sponsors.html">Sponsors</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+    <div class="container">
+
+        <h2>Gallery</h2>
+
+        <div id="gallery-container"></div>
+
+    </div>
+
+    <script src="gallery-data.js"></script>
+
+    <script>
+
+        const container =
+            document.getElementById(
+                "gallery-container"
+            );
+
+        galleries.forEach(gallery => {
+
+            let html = `
+                <h2>${gallery.title}</h2>
+
+                <div class="gallery-grid">
+            `;
+
+            for (
+                let i = 1;
+                i <= gallery.images;
+                i++
+            ) {
+
+                let number =
+                    String(i).padStart(2,'0');
+
+                html += `
+                    <img
+                        src="
+                        images/gallery/
+                        ${gallery.folder}/
+                        ${number}.jpg
+                        "
+                        alt="${gallery.title}"
+                        loading="lazy"
+                    >
+                `;
+
+            }
+
+            html += "</div>";
+
+            container.innerHTML += html;
+
+        });
+
+    </script>
+
+</body>
+
+</html>
