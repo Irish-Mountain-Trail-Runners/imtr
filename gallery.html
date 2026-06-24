@@ -71,50 +71,32 @@
 
     <script src="gallery-data.js"></script>
 
+     <script src="gallery-data.js"></script>
     <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const container = document.getElementById("gallery-container");
 
-        const container =
-            document.getElementById(
-                "gallery-container"
-            );
-
-        galleries.forEach(gallery => {
-
-            let html = `
-                <h2>${gallery.title}</h2>
-
-                <div class="gallery-grid">
-            `;
-
-            for (
-                let i = 1;
-                i <= gallery.images;
-                i++
-            ) {
-
-                let number =
-                    String(i).padStart(2,'0');
-
-                html += `
-                    <img
-                        src="
-                        images/gallery/
-                        ${gallery.folder}/
-                        ${number}.jpg
-                        "
-                        alt="${gallery.title}"
-                        loading="lazy"
-                    >
+            galleries.forEach(gallery => {
+                let html = `
+                    <h2>${gallery.title}</h2>
+                    <div class="gallery-grid">
                 `;
 
-            }
+                for (let i = 1; i <= gallery.images; i++) {
+                    const number = String(i).padStart(2, '0');
+                    html += `
+                        <img 
+                            src="images/gallery/${gallery.folder}/${number}.jpg"
+                            alt="${gallery.title}" 
+                            loading="lazy"
+                        >
+                    `;
+                }
 
-            html += "</div>";
-
-            container.innerHTML += html;
-
+                html += "</div>";
+                container.innerHTML += html;
+            });
         });
-
     </script>
 
 </body>
