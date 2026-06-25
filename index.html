@@ -1,78 +1,34 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-
+    <title>Irish Mountain Trail Runners</title>
     <link rel="stylesheet" href="css/style.css">
-
 </head>
-
-
 <body>
 
     <header class="header">
-
         <div class="header-left">
-
-            <h1>
-                IRISH MOUNTAIN<br>
-                TRAIL RUNNERS
-            </h1>
-
-
-            <div class="tagline">
-
-                The most fun you can have in the mountains... with your clothes on.
-
-            </div>
-
+            <h1>IRISH MOUNTAIN<br>TRAIL RUNNERS</h1>
+            <div class="tagline">The most fun you can have in the mountains... with your clothes on.</div>
         </div>
-
-
         <div class="logo">
-
             <img src="images/logo.jpg" alt="IMTR Logo">
-
         </div>
-
     </header>
 
-
     <nav>
-
         <ul>
-
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-
-            <li>
-                <a href="about.html">About</a>
-            </li>
-
-            <li>
-                <a href="events.html">Events</a>
-            </li>
-
-            <li>
-                <a href="gallery.html">Gallery</a>
-            </li>
-
-            <li>
-                <a href="sponsors.html">Sponsors</a>
-            </li>
-
-            <li>
-                <a href="contact.html">Contact</a>
-            </li>
-
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="sponsors.html">Sponsors</a></li>
+            <li><a href="join.html">Join Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
-
     </nav>
 
-
     <div class="container">
-
         <h2>
             Welcome To Irish Mountain Trail Runners
         </h2>
@@ -92,26 +48,58 @@
         <p>
 			The atmosphere is supportive, the scenery is stunning, and the banter is top class. So if you're looking for a fun-run, getting fit or some coaching for your next race, come join us and we'll gladly oblige.
         </p>
-	
 
     </div>
 
+    <!-- Bottom Banner / Revolving Gallery -->
+    <section class="bottom-banner">
+        <div class="banner-track" id="bannerTrack">
+            <!-- Images will be added by JavaScript -->
+        </div>
+    </section>
 
     <footer>
-
-        <a href="https://www.facebook.com/irishmountaintrailrunners" target="_blank">
-            Facebook
-        </a>
-
-        |
-
-        <a href="https://www.instagram.com/irish_mountain_trail_runners/" target="_blank">
-            Instagram
-        </a>
-
+        <a href="https://www.facebook.com/irishmountaintrailrunners" target="_blank">Facebook</a> |
+        <a href="https://www.instagram.com/irish_mountain_trail_runners/" target="_blank">Instagram</a>
     </footer>
 
+    <script>
+        // Add your image filenames here (without path)
+        const bannerImages = [
+            "pic01.jpg",
+            "pic02.jpg",
+            "pic03.jpg",
+            "pic04.jpg",
+			"pic05.jpg",
+			"pic06.jpg",
+			"pic07.jpg",
+			"pic08.jpg",
+			"pic09.jpg",
+			"pic10.jpg",
+			"pic11.jpg",
+			"pic12.jpg",
+			"pic13.jpg",
+            "pic14.jpg"
+            // Add more filenames as you upload new photos to images/bottombanner/
+        ];
+
+        const track = document.getElementById('bannerTrack');
+
+        bannerImages.forEach(filename => {
+            const img = document.createElement('img');
+            img.src = `images/bottombanner/${filename}`;
+            img.alt = "Irish Mountain Trail Runners";
+            track.appendChild(img);
+        });
+
+        // Duplicate the images for seamless infinite scroll
+        bannerImages.forEach(filename => {
+            const img = document.createElement('img');
+            img.src = `images/bottombanner/${filename}`;
+            img.alt = "Irish Mountain Trail Runners";
+            track.appendChild(img);
+        });
+    </script>
 
 </body>
-
 </html>
