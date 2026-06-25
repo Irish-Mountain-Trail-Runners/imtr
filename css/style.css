@@ -6,145 +6,139 @@ STYLE SHEET
 /* =========================================================
 GLOBAL
 ========================================================= */
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  }
+}
 
 body {
-background-color: #000000;
-color: #FFFFFF;
-font-family: Arial, Helvetica, sans-serif;
-line-height: 1.6;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
 }
 
 a {
-color: #FFFFFF;
-text-decoration: none;
-transition: 0.3s;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 a:hover {
-color: #CCCCCC;
+  color: #CCCCCC;
 }
 
 img {
-max-width: 100%;
-display: block;
+  max-width: 100%;
+  display: block;
 }
 
 /* =========================================================
 HEADER
 ========================================================= */
-
 .header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 30px 50px;
-border-bottom: 1px solid #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  border-bottom: 1px solid #333333;
 }
 
 .header-left {
-flex: 1;
+  flex: 1;
 }
 
 .header-left h1 {
-font-size: 4rem;
-line-height: 0.95;
-text-transform: uppercase;
-letter-spacing: 2px;
+  font-size: 4rem;
+  line-height: 0.95;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .tagline {
-margin-top: 12px;
-font-size: 1.6rem;
-color: #DDDDDD;
-font-style: italic;
+  margin-top: 12px;
+  font-size: 1.6rem;
+  color: #DDDDDD;
+  font-style: italic;
 }
 
 /* =========================================================
 LOGO
 ========================================================= */
-
 .logo img {
-height: 250px;
-width: auto;
+  height: 250px;
+  width: auto;
 }
 
 /* =========================================================
 NAVIGATION
 ========================================================= */
-
 nav {
-border-bottom: 1px solid #333333;
+  border-bottom: 1px solid #333333;
 }
 
 nav ul {
-list-style: none;
-display: flex;
-justify-content: center;
-padding: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
 nav li {
-margin: 0 25px;
-text-transform: uppercase;
-font-weight: bold;
-letter-spacing: 1px;
+  margin: 0 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 nav a {
-padding: 8px;
+  padding: 8px;
 }
 
 nav a:hover {
-border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
 }
 
 /* =========================================================
 PAGE CONTENT
 ========================================================= */
-
 .container {
-max-width: 1200px;
-margin: auto;
-padding: 50px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px;
 }
 
 h2 {
-font-size: 2.2rem;
-margin-bottom: 25px;
-text-transform: uppercase;
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+  text-transform: uppercase;
 }
 
 h3 {
-margin-top: 30px;
-margin-bottom: 15px;
-font-size: 1.4rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
 }
 
 p {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* =========================================================
 GALLERY
 ========================================================= */
-
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);   /* 5 images per row */
+    grid-template-columns: repeat(5, 1fr);
     gap: 15px;
     margin-bottom: 60px;
 }
 
 .gallery-grid img {
     width: 100%;
-    height: 220px;           /* Fixed height for uniform look */
-    object-fit: cover;       /* Nice cropping */
+    height: 220px;
+    object-fit: cover;
     border-radius: 8px;
     border: 1px solid #222222;
     transition: 0.3s;
@@ -175,138 +169,134 @@ GALLERY
     border: 4px solid #fff;
     border-radius: 8px;
 }
+
+/* =========================================================
+BOTTOM BANNER / REVOLVING GALLERY
+========================================================= */
+
+.bottom-banner {
+    background-color: #111111;
+    padding: 25px 0;
+    overflow: hidden;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+
+.banner-track {
+    display: flex;
+    gap: 20px;
+    animation: scrollLeft 45s linear infinite;
+    width: max-content;
+}
+
+.banner-track img {
+    height: 180px;
+    width: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+/* Continuous scrolling animation */
+@keyframes scrollLeft {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* Pause animation when hovering */
+.bottom-banner:hover .banner-track {
+    animation-play-state: paused;
+}
+
 /* =========================================================
 SPONSOR SECTION
 ========================================================= */
-
 .sponsor-box {
-
-```
-border: 1px solid #333333;
-
-padding: 25px;
-
-margin-top: 20px;
-```
-
+    border: 1px solid #333333;
+    padding: 25px;
+    margin-top: 20px;
 }
 
 /* =========================================================
 CONTACT PAGE
 ========================================================= */
-
 .contact-card {
-
-```
-border: 1px solid #333333;
-
-padding: 25px;
-
-margin-bottom: 20px;
-```
-
+    border: 1px solid #333333;
+    padding: 25px;
+    margin-bottom: 20px;
 }
 
 /* =========================================================
 FOOTER
 ========================================================= */
-
 footer {
-
-```
-border-top: 1px solid #333333;
-
-margin-top: 60px;
-
-padding: 30px;
-```
-
+    border-top: 1px solid #333333;
+    margin-top: 60px;
+    padding: 30px;
+    text-align: center;
 }
 
 .social-icons {
-
-```
-display: flex;
-
-justify-content: center;
-
-align-items: center;
-
-gap: 40px;
-```
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
 .social-icons img {
-
-```
-height: 40px;
-
-width: auto;
-
-transition: 0.3s;
-```
-
+    height: 40px;
+    width: auto;
+    transition: 0.3s;
 }
 
 .social-icons img:hover {
-
-```
-transform: scale(1.15);
-```
-
+    transform: scale(1.15);
 }
 
 /* =========================================================
 MOBILE
 ========================================================= */
-
 @media screen and (max-width: 900px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
 
-```
-.header {
+    .logo img {
+        margin-top: 20px;
+        height: 180px;
+    }
 
-    flex-direction: column;
+    .header-left h1 {
+        font-size: 2.8rem;
+    }
 
-    text-align: center;
-}
+    .tagline {
+        font-size: 1.1rem;
+    }
 
-.logo img {
+    nav ul {
+        flex-wrap: wrap;
+    }
 
-    margin-top: 20px;
+    nav li {
+        margin: 10px;
+    }
 
-    height: 180px;
-}
+    .container {
+        padding: 25px;
+    }
 
-.header-left h1 {
+    h2 {
+        font-size: 1.8rem;
+    }
 
-    font-size: 2.8rem;
-}
-
-.tagline {
-
-    font-size: 1.1rem;
-}
-
-nav ul {
-
-    flex-wrap: wrap;
-}
-
-nav li {
-
-    margin: 10px;
-}
-
-.container {
-
-    padding: 25px;
-}
-
-h2 {
-
-    font-size: 1.8rem;
-}
-```
-
+    .banner-track img {
+        height: 140px;
+    }
 }
