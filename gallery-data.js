@@ -2,8 +2,6 @@ const galleries = [
     {
         title: "04 July 2027 - Saturday 7k and 10k",
         folder: "04 July 2027",
-		description: "Show up, do the work, repeat.💪💪
-		This crew takes on every challenge we throw at them, week in and week out, sometimes with a smile, sometimes with a grimace. It’s a busy few months for everyone, but if they aren't racing, they're training hard and pushing each other further. Brilliant work on the trails today. Well done, gang! #irishmountaintrailrunners #IMTR #inspireeachother #strengthtostrength #consistencyiskey"
         images: 55
     },
 	{
