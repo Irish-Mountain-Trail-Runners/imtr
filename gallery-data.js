@@ -1,5 +1,20 @@
 const galleries = [
     {
+        title: "04 July 2027 - Saturday 7k and 10k",
+        folder: "04 July 2027",
+        images: 55
+    },
+	{
+        title: "03 July 2027 - Club Success",
+        folder: "03 July 2027 - Club Success",
+        images: 9
+    },
+	{
+        title: "01 July 2027 - Wednesday Club Run",
+        folder: "01 July 2027 - Wednesday Club Run",
+        images: 20
+    },
+	{
         title: "27 Jun 26 - Club Run",
         folder: "frame04",
         images: 57
