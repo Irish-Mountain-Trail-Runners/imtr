@@ -150,46 +150,6 @@ GALLERY
     box-shadow: 0 0 15px rgba(255,255,255,0.3);
 }
 
-.gallery-section {
-    margin-bottom: 30px;
-}
-
-.gallery-header {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    cursor: pointer;
-    user-select: none;
-    border-bottom: 2px solid #ddd;
-    padding: 12px 0;
-}
-
-.gallery-header:hover {
-    color: #1b6f3a;
-}
-
-.gallery-header h2 {
-    margin: 0;
-}
-
-.gallery-arrow {
-    width: 20px;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.gallery-description {
-    margin: 15px 0 25px;
-    color: #666;
-    font-size: 0.9em;
-    line-height: 1.6;
-    font-style: italic;
-}
-
-.gallery-content {
-    display: none;
-}
-
 /* Lightbox */
 #lightbox {
     display: none;
