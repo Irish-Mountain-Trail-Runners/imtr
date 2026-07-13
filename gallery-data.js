@@ -2,7 +2,7 @@ const galleries = [
     {
         title: "08 july 2027 - wednesday run",
 		description: "We were sweating it out on the stunning cruagh trails this evening🥵. The heat made our 6k route feel a lot tougher but the crew dug in and got it done 💪 Dont think the ice cold water at the end ever tasted that good 😅 Brilliant running by everyone. #irishmountaintrailrunners #IMTR #clubrun #stayhydrated #consistencyiskey",
-	folder: "08 Jul 26"
+	folder: "08 Jul 26",
         images: 20
     },
 
