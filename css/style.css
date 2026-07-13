@@ -170,6 +170,26 @@ GALLERY
     border-radius: 8px;
 }
 
+/* ==============================
+   Gallery Description
+============================== */
+
+.gallery-description {
+
+    font-size: 0.9rem;
+
+    color: #bbbbbb;
+
+    font-style: italic;
+
+    margin-top: -10px;
+
+    margin-bottom: 20px;
+
+    line-height: 1.6;
+
+}
+
 /* =========================================================
 BOTTOM BANNER / REVOLVING GALLERY
 ========================================================= */
