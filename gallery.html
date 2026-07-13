@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
 
-    <title>Gallery</title>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Gallery | Irish Mountain Trail Runners</title>
 
     <link
         rel="stylesheet"
@@ -15,14 +22,16 @@
 
 <body>
 
-    <!-- HEADER -->
+    <!-- ===========================
+         HEADER
+    ============================ -->
 
     <header class="header">
 
         <div class="header-left">
 
             <h1>
-                IRISH MOUNTAIN
+                IRISH MOUNTAIN<br>
                 TRAIL RUNNERS
             </h1>
 
@@ -44,89 +53,165 @@
 
     </header>
 
-    <!-- NAVIGATION -->
+    <!-- ===========================
+         NAVIGATION
+    ============================ -->
 
     <nav>
 
         <ul>
 
             <li><a href="index.html">Home</a></li>
+
             <li><a href="about.html">About</a></li>
+
             <li><a href="events.html">Events</a></li>
+
             <li><a href="gallery.html">Gallery</a></li>
+
             <li><a href="faq.html">FAQ</a></li>
-			<li><a href="Member Profiles.html">Member Profiles</a></li>
-            <li><a href="Shop.html">Shop</a></li>
+
+            <li><a href="members.html">Member Profiles</a></li>
+
+            <li><a href="shop.html">Shop</a></li>
+
             <li><a href="sponsors.html">Sponsors</a></li>
+
             <li><a href="contact.html">Contact</a></li>
 
         </ul>
 
     </nav>
 
-    <div class="container">
+    <!-- ===========================
+         MAIN CONTENT
+    ============================ -->
+
+    <main class="container">
 
         <h2>Gallery</h2>
 
         <div id="gallery-container"></div>
 
-    </div>
+    </main>
 
-     <script src="gallery-data.js"></script>
+    <!-- ===========================
+         GALLERY DATA
+    ============================ -->
+
+    <script src="gallery-data.js"></script>
+
+    <!-- ===========================
+         GALLERY SCRIPT
+    ============================ -->
+
     <script>
+
         document.addEventListener('DOMContentLoaded', function () {
+
             const container = document.getElementById("gallery-container");
 
-            galleries.forEach(gallery => {
+            galleries.forEach(function (gallery) {
+
                 let html = `
-                    <h2>${gallery.title}</h2>
-                    <div class="gallery-grid">
+
+                    <section class="gallery-section">
+
+                        <h2 class="gallery-title">
+
+                            ${gallery.title}
+
+                        </h2>
+
+                        <p class="gallery-description">
+
+                            ${gallery.description || ""}
+
+                        </p>
+
+                        <div class="gallery-grid">
+
                 `;
 
                 for (let i = 1; i <= gallery.images; i++) {
-                    const number = String(i).padStart(2, '0');
+
+                    const number = String(i).padStart(2, "0");
+
                     html += `
-                        <img 
+
+                        <img
+
                             src="images/gallery/${gallery.folder}/${number}.jpg"
+
                             alt="${gallery.title} - ${number}"
+
                             loading="lazy"
+
                             data-full="images/gallery/${gallery.folder}/${number}.jpg"
+
                         >
+
                     `;
+
                 }
 
-                html += "</div>";
+                html += `
+
+                        </div>
+
+                    </section>
+
+                `;
+
                 container.innerHTML += html;
+
             });
 
-            // Lightbox functionality
-            const lightbox = document.createElement('div');
-            lightbox.id = 'lightbox';
-            lightbox.style.cssText = `
-                display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-                background: rgba(0,0,0,0.95); z-index: 1000; align-items: center;
-                justify-content: center; cursor: pointer;
+            /* ==========================
+               LIGHTBOX
+            ========================== */
+
+            const lightbox = document.createElement("div");
+
+            lightbox.id = "lightbox";
+
+            lightbox.innerHTML = `
+
+                <img
+                    id="lightbox-img"
+                    alt="Gallery Image"
+                >
+
             `;
-            lightbox.innerHTML = `<img id="lightbox-img" style="max-width: 95%; max-height: 95%; border: 3px solid #fff;">`;
+
             document.body.appendChild(lightbox);
 
-            const lightboxImg = document.getElementById('lightbox-img');
+            const lightboxImg = document.getElementById("lightbox-img");
 
-            document.querySelectorAll('.gallery-grid img').forEach(img => {
-                img.style.cursor = 'pointer';
-                img.addEventListener('click', function() {
+            document.querySelectorAll(".gallery-grid img").forEach(function (img) {
+
+                img.style.cursor = "pointer";
+
+                img.addEventListener("click", function () {
+
                     lightboxImg.src = this.dataset.full;
-                    lightbox.style.display = 'flex';
+
+                    lightbox.style.display = "flex";
+
                 });
+
             });
 
-            lightbox.addEventListener('click', function(e) {
-                if (e.target.id === 'lightbox' || e.target.id === 'lightbox-img') {
-                    lightbox.style.display = 'none';
-                }
+            lightbox.addEventListener("click", function () {
+
+                lightbox.style.display = "none";
+
             });
+
         });
+
     </script>
+
 </body>
 
 </html>

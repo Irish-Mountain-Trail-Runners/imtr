@@ -4,16 +4,36 @@ document.addEventListener('DOMContentLoaded', function () {
 
     galleries.forEach(function (gallery) {
 
-        // Create gallery title
+        //--------------------------------------------------
+        // Gallery Title
+        //--------------------------------------------------
+
         const heading = document.createElement('h2');
+
         heading.textContent = gallery.title;
+
         galleryContainer.appendChild(heading);
 
-        // Create gallery grid
+        //--------------------------------------------------
+        // Gallery Description
+        //--------------------------------------------------
+
+        const description = document.createElement('p');
+
+        description.className = 'gallery-description';
+
+        description.textContent = gallery.description;
+
+        galleryContainer.appendChild(description);
+
+        //--------------------------------------------------
+        // Gallery Grid
+        //--------------------------------------------------
+
         const grid = document.createElement('div');
+
         grid.className = 'gallery-grid';
 
-        // Add images
         for (let i = 1; i <= gallery.images; i++) {
 
             const img = document.createElement('img');
