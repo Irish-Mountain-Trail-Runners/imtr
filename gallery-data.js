@@ -1,5 +1,11 @@
 const galleries = [
     {
+      title: "16 July 2026 - Wednesday Club Run",
+      description: "Our midweek route is a cracker! ⛰️ ​So much different terrain to test our crew and plenty of inclines—which is the only time the chats quieten down a bit! 😅 ​Super running by everyone on another cracking evening. Well done, gang! 😎 . . #irishmountaintrailrunners #IMTR #runchats #trainingrun #consistencyiskey",
+      folder: "16 July 2026",
+      images: 19,
+    },
+    {
       title: "12 July 2026 - Wednesday Club Run",
       description: "What a day yesterday! ⛰️ We started with our 4k and 7k groups in Cruagh, then brought the 10k crew over to Glendoo for some open mountain running. ​Who knew training could be this much fun? 😁 Super stuff, guys! ​#irishmountaintrailrunners #IMTR #lovewhatyoudo #bestcrew #consistencyiskey",
       folder: "12 July 2026 - Saturday Run",
