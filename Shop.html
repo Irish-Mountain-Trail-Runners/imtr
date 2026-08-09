@@ -1,81 +1,573 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="css/style.css">
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Shop - Irish Mountain Trail Runners</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+    <!--
+        Shop-specific styling.
+
+        This is contained entirely within this HTML file,
+        so you do not need to modify style.css.
+    -->
+
+    <style>
+
+        /* =========================================
+           SHOP GRID
+           ========================================= */
+
+        .shop-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(4, 1fr);
+
+            gap: 30px;
+
+            margin-top: 30px;
+
+            margin-bottom: 40px;
+
+        }
+
+
+        /* =========================================
+           INDIVIDUAL PRODUCT
+           ========================================= */
+
+        .shop-item {
+
+            text-align: center;
+
+            background: #111;
+
+            border: 1px solid #333;
+
+            padding: 15px;
+
+            transition:
+                transform 0.2s ease,
+                border-color 0.2s ease;
+
+        }
+
+
+        /* =========================================
+           HOVER EFFECT
+           ========================================= */
+
+        .shop-item:hover {
+
+            transform: translateY(-5px);
+
+            border-color: #fff;
+
+        }
+
+
+        /* =========================================
+           PRODUCT IMAGE
+           ========================================= */
+
+        .shop-item img {
+
+            width: 100%;
+
+            height: 220px;
+
+            object-fit: contain;
+
+            display: block;
+
+            margin: 0 auto 15px auto;
+
+        }
+
+
+        /* =========================================
+           PRODUCT NAME
+           ========================================= */
+
+        .shop-item h3 {
+
+            margin: 10px 0 5px 0;
+
+            font-size: 20px;
+
+            color: #fff;
+
+        }
+
+
+        /* =========================================
+           REMOVE LINK UNDERLINE
+           ========================================= */
+
+        .shop-item a {
+
+            text-decoration: none;
+
+            color: #fff;
+
+        }
+
+
+        /* =========================================
+           OPTIONAL DESCRIPTION
+           ========================================= */
+
+        .shop-item p {
+
+            font-size: 14px;
+
+            color: #ccc;
+
+            margin-top: 5px;
+
+        }
+
+
+        /* =========================================
+           TABLET
+           ========================================= */
+
+        @media (max-width: 1000px) {
+
+            .shop-grid {
+
+                grid-template-columns:
+                    repeat(2, 1fr);
+
+            }
+
+        }
+
+
+        /* =========================================
+           MOBILE
+           ========================================= */
+
+        @media (max-width: 600px) {
+
+            .shop-grid {
+
+                grid-template-columns:
+                    1fr;
+
+            }
+
+            .shop-item img {
+
+                height: 250px;
+
+            }
+
+        }
+
+    </style>
+
 </head>
+
 
 <body>
 
+
+    <!-- =====================================================
+         HEADER
+         ===================================================== -->
+
     <header class="header">
+
 
         <div class="header-left">
 
             <h1>
-                IRISH MOUNTAIN<br>
+
+                IRISH MOUNTAIN
                 TRAIL RUNNERS
+
             </h1>
 
+
             <div class="tagline">
-                The most fun you can have in the mountains... with your clothes on.
+
+                The most fun you can have in the mountains...
+                with your clothes on.
+
             </div>
 
         </div>
 
+
         <div class="logo">
 
-            <img src="images/logo.jpg" alt="IMTR Logo">
+            <img
+                src="images/logo.jpg"
+                alt="IMTR Logo"
+            >
 
         </div>
 
+
     </header>
 
+
+
+    <!-- =====================================================
+         NAVIGATION
+         ===================================================== -->
 
     <nav>
 
         <ul>
 
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-			<li><a href="Member Profiles.html">Member Profiles</a></li>
-            <li><a href="Shop.html">Shop</a></li>
-            <li><a href="sponsors.html">Sponsors</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="about.html">
+                    About
+                </a>
+            </li>
+
+            <li>
+                <a href="events.html">
+                    Events
+                </a>
+            </li>
+
+            <li>
+                <a href="gallery.html">
+                    Gallery
+                </a>
+            </li>
+
+            <li>
+                <a href="faq.html">
+                    FAQ
+                </a>
+            </li>
+
+            <li>
+                <a href="Member Profiles.html">
+                    Member Profiles
+                </a>
+            </li>
+
+            <li>
+                <a href="Shop.html">
+                    Shop
+                </a>
+            </li>
+
+            <li>
+                <a href="sponsors.html">
+                    Sponsors
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </li>
 
         </ul>
 
     </nav>
 
 
+
+    <!-- =====================================================
+         MAIN CONTENT
+         ===================================================== -->
+
     <div class="container">
 
+
         <h2>
-            Shop
+            IMTR Shop
         </h2>
 
+
         <p>
-            <strong>Coming Soon... watch this space</strong>
+
+            Official Irish Mountain Trail Runners
+            merchandise.
+
         </p>
+
+
+        <p>
+
+            Click on any item below to view and purchase
+            it from our shop (through an external provider).
+
+        </p>
+
+
+
+        <!-- =================================================
+             PRODUCT GRID
+             ================================================= -->
+
+        <div class="shop-grid">
+
+
+
+            <!-- =============================================
+                 PRODUCT 1
+                 ============================================= -->
+
+            <div class="shop-item">
+
+                <a
+                    href="https://absports.ie/products/imtr-hoodie-unisex-fit?_pos=4&_sid=db932327a&_ss=r"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <img
+                        src="images/shop/hoodie.png"
+                        alt="IMTR Hoodie"
+                    >
+
+                    <h3>
+                        IMTR Hoodie
+                    </h3>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- =============================================
+                 PRODUCT 2
+                 ============================================= -->
+
+            <div class="shop-item">
+
+                <a
+                    href="https://absports.ie/products/imtr-t-shirt-copy?_pos=7&_sid=db932327a&_ss=r"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <img
+                        src="images/shop/Kids_Shirt.png"
+                        alt="Kids T-Shirt"
+                    >
+
+                    <h3>
+                        IMTR Kids Shirt
+                    </h3>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- =============================================
+                 PRODUCT 3
+                 ============================================= -->
+
+            <div class="shop-item">
+
+                <a
+                    href="https://absports.ie/products/imtr-tridri%C2%AE-mens-running-shorts-tr049-copy?_pos=6&_sid=db932327a&_ss=r"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <img
+                        src="images/shop/Mens_Shorts.png"
+                        alt="IMTR Mens Shorts"
+                    >
+
+                    <h3>
+                        IMTR Mens Shorts
+                    </h3>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- =============================================
+                 PRODUCT 4
+                 ============================================= -->
+
+            <div class="shop-item">
+
+                <a
+                    href="https://absports.ie/products/imtr-tridri%C2%AE-ion-charge-performance-vest-tr506?_pos=1&_sid=db932327a&_ss=r"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <img
+                        src="images/shop/TriDri_Ion_Vest.png"
+                        alt="IMTR Vest"
+                    >
+
+                    <h3>
+                        IMTR Vest
+                    </h3>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- =============================================
+                 PRODUCT 5
+                 ============================================= -->
+
+            <div class="shop-item">
+
+                <a
+                    href="https://absports.ie/products/imtr-womens-tridri%C2%AE-running-shorts-tr049?_pos=3&_sid=db932327a&_ss=r"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <img
+                        src="images/shop/Running_Shorts.png"
+                        alt="Womens Running Shorts"
+                    >
+
+                    <h3>
+                        Womens Running Shorts
+                    </h3>
+
+                </a>
+
+            </div>
+
+
+
+ 
+
+            <!-- =============================================
+                 PRODUCT 7
+                 ============================================= -->
+
+            <div class="shop-item">
+
+                <a
+                    href="https://absports.ie/products/imtr-t-shirt?_pos=2&_sid=db932327a&_ss=r"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <img
+                        src="images/shop/T-Shirt.png"
+                        alt="IMTR T-Shirt"
+                    >
+
+                    <h3>
+                        IMTR T-Shirt
+                    </h3>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- =============================================
+                 PRODUCT 8
+                 ============================================= -->
+
+            <div class="shop-item">
+
+                <a
+                    href="https://absports.ie/products/imtr-womens-performance-strap-back-vest?_pos=5&_sid=db932327a&_ss=r"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <img
+                        src="images/shop/Womens_Vest.png"
+                        alt="IMTR Womens Vest"
+                    >
+
+                    <h3>
+                        IMTR Womens Vest
+                    </h3>
+
+                </a>
+
+            </div>
+
+
+        </div>
+
 
     </div>
 
 
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
     <footer>
 
-        <a href="https://www.facebook.com/irishmountaintrailrunners" target="_blank">
-            Facebook
+
+        <a
+            href="https://www.facebook.com/irishmountaintrailrunners"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+
+            <img
+                src="images/facebook.png"
+                alt="Facebook"
+            >
+
         </a>
 
-        |
 
-        <a href="https://www.instagram.com/irish_mountain_trail_runners/" target="_blank">
-            Instagram
+        <a
+            href="https://www.instagram.com/irish_mountain_trail_runners/"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+
+            <img
+                src="images/instagram.png"
+                alt="Instagram"
+            >
+
         </a>
+
 
     </footer>
+
 
 </body>
 
