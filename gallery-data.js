@@ -1,5 +1,11 @@
 const galleries = [
     {
+      title: "21st July 2026",
+      description: "What a few weeks for the club! 🏆 Our crew have been absolutely smashing it left, right, and center! 🔥👏 ​From local trails to international podiums, the performances have been unreal. ​🇨🇭 Niamh Murphy — 1st Female at the ÖTILLÖ Swimrun World Series! 🥇 💪​Scott — Conquered the Lilliput Adventure Race! 💪Louise — Flew through the Fingal 10k! ​ 💪Sharon — Smashed the Achill Half Marathon! 💪Nicky — Crushed the Never Give Up 5k in Wexford! ​🏴󠁧󠁢󠁷󠁬󠁳󠁿 Pierce — Took on the Love Trails Running Festival in Wales! 💪​Laura H— Tackled the brutal Beast of Beara Half! 💪​ Shane — Smashed the Irish Runner 10-Miler! 💪Laura, Jolanta & Markie — Smashed it at Tryka! ​An absolutely incredible run of results. We couldn't be prouder of everyone getting out there, representing the club and smashing their goals. ​Keep it going 🙌 amazing effort all round. #irishmountaintrailrunners #IMTR ​#ClubPride #inspiringothers #HardWorkPaysOff believeandachieve",
+      folder: "21st July 2026",
+      images: 10,
+    },
+    {
       title: "18 Jul 26 - Wednesday Club Run",
       description: "Another glorious morning on the trails 😎. Our crew are enjoying getting out in this weather, tough going in the heat but worth every step, and the crew are taking on plenty of water 👌. Super running by all our crew on all our routes💪. Well done gang. #irishmountaintrailrunners #IMTR #clubrun #stayhydrated #consistencyiskey",
       folder: "18 Jul 26",
