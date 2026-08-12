@@ -1,5 +1,11 @@
 const galleries = [
     {
+      title: "Wednesday Club Run, 22nd July Masseys",
+      description: "We hit the Masseys trails for our club 6k run this week. Nice route and a nice little climb back to our base in Cruagh. These guys take on whatever routes we put in front of them and do it all with a smile and loads of chats👌🔥. Super work by everyone.💪 Well done gang. #irishmountaintrailrunners #IMTR #changeitup #bestcrew #consistencyiskey",
+      folder: "22nd July Masseys",
+      images: 20,
+    },
+    {
       title: "21st July 2026",
       description: "What a few weeks for the club! 🏆 Our crew have been absolutely smashing it left, right, and center! 🔥👏 ​From local trails to international podiums, the performances have been unreal. ​🇨🇭 Niamh Murphy — 1st Female at the ÖTILLÖ Swimrun World Series! 🥇 💪​Scott — Conquered the Lilliput Adventure Race! 💪Louise — Flew through the Fingal 10k! ​ 💪Sharon — Smashed the Achill Half Marathon! 💪Nicky — Crushed the Never Give Up 5k in Wexford! ​🏴󠁧󠁢󠁷󠁬󠁳󠁿 Pierce — Took on the Love Trails Running Festival in Wales! 💪​Laura H— Tackled the brutal Beast of Beara Half! 💪​ Shane — Smashed the Irish Runner 10-Miler! 💪Laura, Jolanta & Markie — Smashed it at Tryka! ​An absolutely incredible run of results. We couldn't be prouder of everyone getting out there, representing the club and smashing their goals. ​Keep it going 🙌 amazing effort all round. #irishmountaintrailrunners #IMTR ​#ClubPride #inspiringothers #HardWorkPaysOff believeandachieve",
       folder: "21st July 2026",
