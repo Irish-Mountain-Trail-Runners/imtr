@@ -1,5 +1,11 @@
 const galleries = [
     {
+      title: "Saturday 25th July, Cruagh/Tibradden",
+      description: "Another great day on the trails! 😁💪 Great chats, plenty of craic, and strong running from everyone across all our routes. Getting to run with this crew every week and seeing the progress everyone is making is amazing. Hard work and consistency always pay off. Onwards and upwards. Well done gang 👌 #irishmountaintrailrunners #IMTR #StrongerEveryWeek #progressingtogether #ConsistencyIsKey",
+      folder: "25th July Cruagh Tibradden",
+      images: 43,
+    },
+    {
       title: "Wednesday Club Run, 22nd July Masseys",
       description: "We hit the Masseys trails for our club 6k run this week. Nice route and a nice little climb back to our base in Cruagh. These guys take on whatever routes we put in front of them and do it all with a smile and loads of chats👌🔥. Super work by everyone.💪 Well done gang. #irishmountaintrailrunners #IMTR #changeitup #bestcrew #consistencyiskey",
       folder: "22nd July Masseys",
