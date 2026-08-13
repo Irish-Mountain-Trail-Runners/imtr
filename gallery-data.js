@@ -1,5 +1,11 @@
 const galleries = [
     {
+      title: "Sat 1st August 4k,7k,10k Cruagh/Glendoo",
+      description: "Starting off the Bank Holiday weekend in the best way, on the trails with the IMTR crew👌. Having Cruagh as our base gives us so many options, this week alone we've hit trails in Tibradden, Masseys, Glendoo and of course Cruagh, great to be able to mix it up and keeps us on our toes. Strong running from everyone on our 4k, 7k, 10k, 17k and beyond💪. Well done gang. #irishmountaintrailrunners #IMTR #bestcrew #trainingrun #consistencyiskey",
+      folder: "1st August",
+      images: 40,
+    },
+    {
       title: "Wednesday Club Run 6k, Masseys",
       description: "Our crew were in flying form for our 6k run💪. When there's as much talking on the uphills as their is on the downhills you know their ready to take on anything😀 💪. Another super run from everyone 👏. Well done gang. #irishmountaintrailrunners #IMTR #trainingrun #strengthtostrength #consistencyiskey",
       folder: "29th July",
