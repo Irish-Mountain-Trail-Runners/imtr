@@ -1,5 +1,11 @@
 const galleries = [
     {
+      title: "Saturday 22nd August, Cruagh/Tibradden",
+      description: "Fantastic morning on the trails, perfect running conditions and as usual with this crew the chats and craic were top notch 👌. Brilliant to see so many people catching the trail running bug and joining our crew for our runs💪💪. Super running from everyone today, from our 4k to our 17k and more. Well done gang #irishmountaintrailrunners #IMTR #strengthtostrength #clubrun #consistencyiskey",
+      folder: "22nd August",
+      images: 77,
+    },
+    {
       title: "Wednesday 6k Cruagh, 19th August",
       description: "Nice bit cooler on the trails this week! 👌 Everyone’s putting the work in with big events right around the corner. ​As usual, the crew was training hard, chatting hard, and laughing harder. 💪😁 ​Brilliant running from everyone Well done gang! ​#irishmountaintrailrunners #IMTR #trainingrun #runchats #consistencyiskey",
       folder: "19th August",
