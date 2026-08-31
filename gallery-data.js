@@ -1,5 +1,11 @@
 const galleries = [
     {
+      title: "Saturday 29th August",
+      description: "Wet and misty start for the crew this morning, but these guys keep showing up 💪 ​Consistency always pays off, and it shows in the progress being made 👌 ​Everyone is ready for whatever challenges are coming up next. Great running today. Well done gang #irishmountaintrailrunners #IMTR #trailrunningdublin #trailrunningireland #consistencyiskey",
+      folder: "29th August",
+      images: 58,
+    },
+    {
       title: "Wednesday 6k, 26th August",
       description: "Another great evening on the trails! Perfect conditions for our midweek 6k run 😎👌. Nothing like a few flies chasing you to add an extra bit of speed training! 😂🪰 Brilliant effort from everyone and great to see the crew putting the work in week after week. Well done, gang! 💪👏 #irishmountaintrailrunners #IMTR #clubrun #StrongerEveryWeek #consistencyiskey",
       folder: "26th August",
