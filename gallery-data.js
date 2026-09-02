@@ -1,5 +1,11 @@
 const galleries = [
     {
+      title: "July/August Goals 💪",
+      description: "Our club members have been delivering incredible performances over the last few weeks! ​IMRA Wicklow Way 127km: Niamh ran a phenomenal race to take 2nd lady home overall. 💪 ​Naas 5k: Elaine, Jolanta, and Nicky represented us brilliantly on the road. ​Frank Duffy 10 Miler: Louise smashed her distance with a fantastic performance. ​Run the Ridge: Great running from Eoin and Laura on a tough course. ​Trail 1244 La Montségurienne: Naomi flew the flag internationally with a great run in France! ​Dublin Mountain Way: Jason took on an epic challenge. ​Massive congratulations to everyone —you’ve done yourselves and the club incredibly proud! 👏👏👏 #irishmountaintrailrunners #imtr #thisiswhatwedo #believeandachieve",
+      folder: "Races july, aug",
+      images: 9,
+    },
+    {
       title: "Saturday 29th August",
       description: "Wet and misty start for the crew this morning, but these guys keep showing up 💪 ​Consistency always pays off, and it shows in the progress being made 👌 ​Everyone is ready for whatever challenges are coming up next. Great running today. Well done gang #irishmountaintrailrunners #IMTR #trailrunningdublin #trailrunningireland #consistencyiskey",
       folder: "29th August",
