@@ -1,5 +1,11 @@
 const galleries = [
     {
+      title: "Wednesday 6k, September 2nd",
+      description: "Another brilliant evening with the IMTR crew! Our 6k mixed-pace session had it all — fast pushes, plenty of laughs and as always, great support along the way. 🙌 That’s what our midweek runs are all about — getting fitter, having the craic and helping each other improve, whatever your pace. Brilliant running by everyone 👏 Well done gang #irishmountaintrailrunners #IMTR #trailcommunity #strengthtostrength #consistencyiskey",
+      folder: "2nd September",
+      images: 20,
+    },
+    {
       title: "July/August Goals 💪",
       description: "Our club members have been delivering incredible performances over the last few weeks! ​IMRA Wicklow Way 127km: Niamh ran a phenomenal race to take 2nd lady home overall. 💪 ​Naas 5k: Elaine, Jolanta, and Nicky represented us brilliantly on the road. ​Frank Duffy 10 Miler: Louise smashed her distance with a fantastic performance. ​Run the Ridge: Great running from Eoin and Laura on a tough course. ​Trail 1244 La Montségurienne: Naomi flew the flag internationally with a great run in France! ​Dublin Mountain Way: Jason took on an epic challenge. ​Massive congratulations to everyone —you’ve done yourselves and the club incredibly proud! 👏👏👏 #irishmountaintrailrunners #imtr #thisiswhatwedo #believeandachieve",
       folder: "Races july, aug",
