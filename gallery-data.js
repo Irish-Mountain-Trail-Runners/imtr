@@ -1,5 +1,11 @@
 const galleries = [
     {
+      title: "Shankill to the Mill 2026",
+      description: "Shankill to the Mill 2026 What an unforgettable run along the DMW from Bradys Pub in Shankill to The Old Mill Pub in Tallaght! ​Our crew covered anywhere between 15k and a full 42k, with fantastic energy and plenty of laughs every step of the way 💪😁. Amazing to see so many personal goals hit today 👏! Massive shout out to Dale and Siobhan for once again organising a great day out. Big thanks to Natasha , James, Elaine, Nicky and Markie and everyone else who helped out looking after aid stations, lifts and support, these events don't happen without you ❤️❤️ ​Special thanks to Rye River Brewing Co. for the goodie bags and Goughie’s Coffee for the vouchers🙏🙏 and of course The Old Mill Tallaght once again for the hospitality and post-run rehydration😉🍻. Well done gang. Bring on our next challenge 💪 ​#irishmountaintrailrunners #imtr #shankilltothemill #bestcrew #believeandachieve",
+      folder: "STTM 2026",
+      images: 29,
+    },
+    {
       title: "Wednesday 6k, September 2nd",
       description: "Another brilliant evening with the IMTR crew! Our 6k mixed-pace session had it all — fast pushes, plenty of laughs and as always, great support along the way. 🙌 That’s what our midweek runs are all about — getting fitter, having the craic and helping each other improve, whatever your pace. Brilliant running by everyone 👏 Well done gang #irishmountaintrailrunners #IMTR #trailcommunity #strengthtostrength #consistencyiskey",
       folder: "2nd September",
