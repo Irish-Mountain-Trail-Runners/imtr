@@ -1,5 +1,11 @@
 const galleries = [
     {
+      title: "Crew Achievements💪",
+      description: "From Kerry to Donegal and back to Dublin, our crew have been representing IMTR brilliantly over the past few weeks! ⛰️🏃‍♀️🏃‍♂️ A massive shout-out to Niamh, taking 4th place at the Kerry Way Ultra 👏🔥 Mairead smashing the Dingle Half. Then up to Donegal, where Ava grabbed an amazing 2nd place at the Seven Sisters, with Paddy, Pierce, Laura, Scott and Velma all smashing their runs too! 💪👏 Back in Dublin, we had a big IMTR crew out at the Dublin Half Marathon, with some fantastic performances across the board, along with more of the gang taking on the Dublin Mountain 5K in Glencullen. We’re incredibly proud to see so many of our members getting out there, challenging themselves and representing the club so brilliantly. 🙌 Well done, gang — what a crew! ⛰️🏃‍♂️🏃‍♀️ #irishmountaintrailrunners #IMTR #bestcrew #smashinggoals #believeandachieve",
+      folder: "September Goals",
+      images: 20,
+    },
+    {
       title: "Saturday 19th September, 4k, 7k and 10k",
       description: "Another week, another reminder of what this crew is all about! 💪 ​Week after week, the effort keeps showing. Whatever the route, whatever the challenge, everyone keeps turning up, putting in the work, and giving it their all – even when it would be easier to stay in bed! 😁 ​We're right in the middle of a really busy period for all our members, but if they're not racing, they're up here training and helping to push each other on. Different paces, different goals, but everyone moving forward together. ​That consistency, support, and a bit of IMTR craic is what makes this crew special. 🔥🙌 Super running by everyone. Well done gang #irishmountaintrailrunners #IMTR #trainingrun #runchats #consistencyiskey",
       folder: "19th September",
