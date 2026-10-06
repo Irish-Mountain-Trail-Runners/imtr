@@ -1,5 +1,11 @@
 const galleries = [
     {
+      title: "Saturday 19th September, 4k, 7k and 10k",
+      description: "Another week, another reminder of what this crew is all about! 💪 ​Week after week, the effort keeps showing. Whatever the route, whatever the challenge, everyone keeps turning up, putting in the work, and giving it their all – even when it would be easier to stay in bed! 😁 ​We're right in the middle of a really busy period for all our members, but if they're not racing, they're up here training and helping to push each other on. Different paces, different goals, but everyone moving forward together. ​That consistency, support, and a bit of IMTR craic is what makes this crew special. 🔥🙌 Super running by everyone. Well done gang #irishmountaintrailrunners #IMTR #trainingrun #runchats #consistencyiskey",
+      folder: "19th September",
+      images: 49,
+    },
+    {
       title: "Wednesday 6k, September 16th",
       description: "Maybe squeeze in one more night on our summer route before the headlights come out🤔. We're still in the thick of race season with a few good races/events coming up for our crew, but looking at them today that wont be a problem. Super running by everyone 💪 Well done gang. #irishmountaintrailrunners #IMTR #trainingrun #readyforanything #consistencyiskey",
       folder: "September 16th",
