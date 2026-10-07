@@ -1,5 +1,11 @@
 const galleries = [
     {
+      title: "Wednesday 23rd September, 6k.",
+      description: "Our last run on our summer route and no better way to finish it off than doing it in the opposite direction😉 Amazing how much a route that you've run on all summer looks so different when you switch direction, no one got lost so the crew must have been paying attention this summer😎😁. Super running by everyone. Well done gang #irishmountaintrailrunners #IMTR #clubrun #bestcrew #consistencyiskey",
+      folder: "23rd September",
+      images: 20,
+    },
+    {
       title: "Crew Achievements💪",
       description: "From Kerry to Donegal and back to Dublin, our crew have been representing IMTR brilliantly over the past few weeks! ⛰️🏃‍♀️🏃‍♂️ A massive shout-out to Niamh, taking 4th place at the Kerry Way Ultra 👏🔥 Mairead smashing the Dingle Half. Then up to Donegal, where Ava grabbed an amazing 2nd place at the Seven Sisters, with Paddy, Pierce, Laura, Scott and Velma all smashing their runs too! 💪👏 Back in Dublin, we had a big IMTR crew out at the Dublin Half Marathon, with some fantastic performances across the board, along with more of the gang taking on the Dublin Mountain 5K in Glencullen. We’re incredibly proud to see so many of our members getting out there, challenging themselves and representing the club so brilliantly. 🙌 Well done, gang — what a crew! ⛰️🏃‍♂️🏃‍♀️ #irishmountaintrailrunners #IMTR #bestcrew #smashinggoals #believeandachieve",
       folder: "September Goals",
