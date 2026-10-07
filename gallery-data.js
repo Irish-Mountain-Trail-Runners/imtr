@@ -1,5 +1,11 @@
 const galleries = [
     {
+      title: "Eco Trail Wicklow",
+      description: "We had an amazing day at Eco Trail Wicklow with a big crew from the club taking on distances of 19k, 30k, 46k and 80k👏 Niamh once again on the podium with a fantastic 2nd place finish in the 80k 💪. Some brilliant performances right through our crew with everyone smashing their distances and everyone of them finishing with a smile, we are so proud to have them out representing our club 👌 Massive thank you to everyone who helped organise a brilliant event, really well marked and marshalled throughout and the aid stations were well stocked, from race directors to volunteers brilliant work 👏👏👏 We'll be back 💯 #irishmountaintrailrunners #IMTR #ecotrailwicklow #whatacrew ##believeandachieve",
+      folder: "Eco Trail Wicklow",
+      images: 20,
+    },
+    {
       title: "Wednesday 23rd September, 6k.",
       description: "Our last run on our summer route and no better way to finish it off than doing it in the opposite direction😉 Amazing how much a route that you've run on all summer looks so different when you switch direction, no one got lost so the crew must have been paying attention this summer😎😁. Super running by everyone. Well done gang #irishmountaintrailrunners #IMTR #clubrun #bestcrew #consistencyiskey",
       folder: "23rd September",
