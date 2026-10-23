@@ -1,5 +1,11 @@
 const galleries = [
     {
+      title: "Wednesday 6k, 21st October",
+      description: "Beautiful evening up on the Cruagh trails. Another strong training run under the belt for our crew.🔥🔥 Super running by everyone .💪 Well done gang. #irishmountaintrailrunners #IMTR #clubrun #wegettodothis #consistencyiskey",
+      folder: "October 21st",
+      images: 20,
+    },
+    {
       title: "Saturday October 17th, Cruagh and Glendoo",
       description: "Absolutely cracking morning on our Cruagh and Glendoo routes 👌😎 We started with our 4k and 7k in Cruagh then our 10k headed up to Glendoo for a bit of bog hopping 😁. Great craic. Super running from everyone on all our routes. Well done gang. #irishmountaintrailrunners #IMTR #clubrun #wegettodothis #consistencyiskey",
       folder: "October 17th",
