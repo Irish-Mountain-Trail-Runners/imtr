@@ -1,5 +1,11 @@
 const galleries = [
     {
+      title: "Dublin and Amsterdam Marathons",
+      description: "From trails to tarmac! 🏃‍♂️💪 ​A good few of our crew took on the Dublin Marathon last weekend and absolutely crushed it. All the hard work on the roads paid off, there was great support along the route from fellow club members, and the post-race celebration was a marathon in itself! 🤣 ​We also had Belinda and Louise taking on the Amsterdam Marathon—both smashed it. 👏 ​Now get back to the trails where you belong! 😁 Brilliant running by everyone. #irishmountaintrailrunners #IMTR #dublinmarathon #amsterdammarathon #believeandachieve",
+      folder: "marathons",
+      images: 17,
+    },
+    {
       title: "Wednesday 28th October, 6k.",
       description: "Perfect evening to hit the trails for our 6k run. Clear skies and not a breeze👌, so much easier to push yourself that little bit extra on the hills when your surrounded by so many like minded people 💪💪. Great running by everyone . Well done gang #irishmountaintrailrunners #IMTR #clubrun #midweek6k #consistencyiskey",
       folder: "28th October",
