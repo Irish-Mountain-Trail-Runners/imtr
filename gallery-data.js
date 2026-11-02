@@ -1,5 +1,11 @@
 const galleries = [
     {
+      title: "Wednesday 28th October, 6k.",
+      description: "Perfect evening to hit the trails for our 6k run. Clear skies and not a breeze👌, so much easier to push yourself that little bit extra on the hills when your surrounded by so many like minded people 💪💪. Great running by everyone . Well done gang #irishmountaintrailrunners #IMTR #clubrun #midweek6k #consistencyiskey",
+      folder: "28th October",
+      images: 20,
+    },
+    {
       title: "Saturday October 24th.",
       description: "On days like today, the hardest part is getting out the door.🌧🌧 ​The weather may have been rough, but that didn't stop our crew getting out and getting the miles in 💪💪. ​Strong running by everyone. Well done gang! 👌 ​#irishmountaintrailrunners #IMTR #itsonlyweather #clubrun #consistencyiskey",
       folder: "Saturday 24th October",
